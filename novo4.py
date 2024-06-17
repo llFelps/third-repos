@@ -1,2 +1,2 @@
-print("novo4")
-print("git")
+print("Se acha esperto, não é mesmo?")
+print("Acabou a brincadeira.")

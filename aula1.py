@@ -4,5 +4,6 @@ Mes= "Janeiro"
 Valor: int = 500
 Desconto: int = 10
 Cupom = "PAULAÉ10"
-
+tipo_nome = type(Nome)
+print(tipo_nome)
 print ("Olá, " + Nome + ". Em "" + Mes + "" você realizou uma compra no valor de R$" , Valor , "e ganhou um desconto de" , Desconto , "%"" em sua próxima compra. Use o cumpom" , Cupom,".")
