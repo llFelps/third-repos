@@ -4,4 +4,7 @@ mes= "Janeiro"
 valor: int = 500
 desconto: int = 10
 cupom = "PAULAÉ10"
-print(f"Olá, {nome}. Em {mes} você realizou uma compra no valor de R$ {valor:.2f} e ganhou um desconto de {desconto}% em sua próxima compra. Use o cumpom {cupom}")
+
+print("Olá, {}. Em {} você realizou uma compra no valor de R$ {} e ganhou um desconto de {} em sua próxima compra. Use o cumpom {}")(nome , mes , valor , desconto , cupom)
+
+#format. nao deu certo.
