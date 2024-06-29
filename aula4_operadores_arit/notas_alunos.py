@@ -1,14 +1,9 @@
 #notas_alunos 
-nome = input("Digite o nome do aluno: ")
-n1 = input("Digite a primeira nota: ")
-n2 = input("Digite a segunda nota: ")
-n3 = input("Digite a terceira nota: ")
-n4 = input("Digite a quarta nota: ")
-
-nota1 = int(n1)
-nota2 = int(n2)
-nota3 = int(n3)
-nota4 = int(n4)
+nome =  input("Digite o nome do aluno: ")
+nota1 =  int(input("Digite a primeira nota: "))
+nota2 =  int(input("Digite a segunda nota: " ))
+nota3 =  int(input("Digite a terceira nota: "))
+nota4 =  int(input("Digite a quarta nota: "  ))
 
 soma = nota1 + nota2 + nota3 + nota4
 media = soma/4
