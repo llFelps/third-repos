@@ -19,20 +19,25 @@ lista[2]
 lista[3]
 300
 
-lista[4]
-400
+lista[4] 400
 .......................................................
-lista[-1]  # outra maneira de acessar o último elemento
-400
+print(lista[-1])
+ 400
 
-lista[-2]  # penúltimo elemento
-300
+print(lista[-2])
+ 300
 
-lista[-3]  # terceiro
-200
+print(lista[-3])
+ 200
 
-lista[-4]  # segundo
-100
+print(lista[-4])
+ 100
 
-lista[-5]  # primeiro
-00
+print(lista[-5])
+ 00
+.................
+print(lista[2:])
+ 200, 300, 400
+
+print(lista[2:4])
+ 200, 300
