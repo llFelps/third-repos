@@ -8,3 +8,8 @@
 #VOCÊ ESTÁ NO TIME AZUL
 ##Caso o número de matrícula do(a) aluno(a) seja impar imprima:
 #VOCÊ ESTÁ NO TIME AMARELO
+
+#Agora, criem um scritp para:
+#Ter um input de usuário para inserir os números de matrícula em uma lista. 
+#Ter um validador nessa lista que permita a inserção de dados até ocupar 5 espaços index.
+#Fazer um laço de repetição para passar todos os números da lista em uma função para verificar se o número é par ou ímpar.
