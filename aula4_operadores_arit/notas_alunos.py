@@ -1,4 +1,3 @@
-#notas_alunos 
 nome =  input("Digite o nome do aluno: ")
 nota1 =  int(input("Digite a primeira nota: "))
 nota2 =  int(input("Digite a segunda nota: " ))

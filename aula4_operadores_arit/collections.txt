@@ -1,0 +1,38 @@
+    sets  =      {DESORDENADOS....................................}
+    tuple =      (.....................IMUTÁVEIS..................)
+    dicio =      {..................................NÃO SE REPETEM}
+    list  =      [valores ordenados.....mutáveis.....podem repetir]
+    index =      capaz de isolar um elemento numa collection
+    """)
+
+lista = [00, 100, 200, 300, 400]
+..........................................
+lista[0]  # os índices sempre começam em 0
+00
+
+lista[1]
+100
+
+lista[2]
+200
+
+lista[3]
+300
+
+lista[4]
+400
+.......................................................
+lista[-1]  # outra maneira de acessar o último elemento
+400
+
+lista[-2]  # penúltimo elemento
+300
+
+lista[-3]  # terceiro
+200
+
+lista[-4]  # segundo
+100
+
+lista[-5]  # primeiro
+00

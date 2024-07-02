@@ -1,11 +1,9 @@
-#Idade humana >> Idade animal
 dog_name = input("Nome do cachorro: ")
 idade_humana = int(input("Idade humana do cachorro: "))
 
 idade_dog = idade_humana*7
 print(f"Convertemos a idade do {dog_name} em idade animal. O resultado é {idade_dog}")
 
-#Tabela de valor x custo
 print("""
         porte       valor            custo
 
@@ -21,5 +19,4 @@ custo = int(input("Defina o custo de acordo com o porte: "))
 
 lucro = n_banhos*(valor + custo)
 
-#String final
 print(f"Olá, {dog_name} tem {idade_dog} anos e nos últimos 12 meses o lucro com este animal foi de R${lucro:.2f}")
