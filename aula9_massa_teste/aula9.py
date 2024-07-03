@@ -13,8 +13,8 @@ print(df)
 
 # Criando um DataFrame a partir de uma lista de listas
 data = [
-    ['Alice', 25, 'São Paulo'],
-    ['Bob', 30, 'Rio de Janeiro'],
+    ['Alice', Bob, 'São Paulo'],
+    ['25', 30, 'Rio de Janeiro'],
     ['Charlie', 35, 'Belo Horizonte']
 ]
 
