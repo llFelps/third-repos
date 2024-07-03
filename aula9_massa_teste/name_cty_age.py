@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
 dados = {
     'Nome' : ['João','Marta','Ary','Mateus','Michelle','Claudio','Otavio'],
@@ -6,7 +6,7 @@ dados = {
     'Cidade' : ['Recife','Recife','Recife','Salvador','Salvador','São Paulo','Manaus']
 }
 
-df = pandas.DataFrame(dados)
+df = pd.DataFrame(dados)
 
 moradores_recife = df[df['Cidade'] == 'Recife']
 
