@@ -1,0 +1,14 @@
+import pandas
+
+dados = {
+    'Nome' : ['João','Marta','Ary','Mateus','Michelle','Claudio','Otavio'],
+    'Idade' : [51,37,23,24,33,45,32],
+    'Cidade' : ['Recife','Recife','Recife','Salvador','Salvador','São Paulo','Manaus']
+}
+
+df = pandas.DataFrame(dados)
+
+moradores_recife = df[df['Cidade'] == 'Recife']
+
+print('Moradores de Recife')
+print(moradores_recife)
