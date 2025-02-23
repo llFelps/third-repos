@@ -5,4 +5,4 @@ if age > 18 :
 elif age == 18:
     print("Já pode ir morar sozinho 👢.")
 else:
-    print("Não tá na idade de sair do bercinho 👼🏽.")
+    print("Tem nem idade pra sair do bercinho 👼🏽.")
